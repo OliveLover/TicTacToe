@@ -2,7 +2,9 @@ package manager;
 
 public enum GameList {
 
-    TIC_TAC_TOE(1, "TicTacToe");
+    TIC_TAC_TOE(1, "TicTacToe"),
+    HANOI(2, "Hanoi"),
+    BLACKJACK(3, "Blackjack");
 
     private final int num;
     private final String gameName;
